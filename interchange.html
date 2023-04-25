@@ -1,0 +1,232 @@
+<!--task1-1の意味　１行目　praper
+
+　　　　　　割り振られたトレーダーの数字
+　　　　　　１ praper
+　　　　　　２ therapist
+　　　　　　３ skier
+　　　　　　４ peacekeeper
+　　　　　　５ mechanic
+           ６ ragman
+　　　　　　７ jaeger
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <link href="interchangestyle.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+
+       <!--マップ woods-->
+        <div>
+            <img src="./images/interchange.png" id ="interchange" alt="interchange">
+        </div>
+
+
+
+
+        <!--タスクの場所の画像-->
+
+
+
+        <div id = "t1-3" style="display: none;">
+            <img src ="./images/en.png" class = "t1-3en1" alt = "en">
+            <img src ="./images/en.png" class = "t1-3en2" alt = "en">
+            <img src ="./images/EMCkey.png" class = "t1-3emc" alt = "en">
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div id = "t2-3" style="display: none;">
+            <img src ="./images/en.png" class = "t2-3en1" alt = "en">
+            <img src ="./images/camera.png" class = "t2-3camera1" alt = "en">
+        </div>
+        
+        <div id = "t2-6" style="display: none;">
+            <img src ="./images/en.png" class = "t2-6en1" alt = "en">
+            <img src ="./images/en.png" class = "t2-6en2" alt = "en">
+            <img src ="./images/en.png" class = "t2-6en3" alt = "en">
+            <img src ="./images/en.png" class = "t2-6en4" alt = "en">
+            <img src ="./images/en.png" class = "t2-6en5" alt = "en">
+        </div>
+
+
+
+
+
+
+
+
+        <div id = "t3-3" style="display: none;">
+            <img src ="./images/en.png" class = "t3-3en1" alt = "en">
+            <img src ="./images/GoldenchainIcon.png" class = "t3-3golden" alt = "en">
+        </div>
+
+        <div id = "t3-6" style="display: none;">
+            <img src ="./images/en.png" class = "t3-6en1" alt = "en">
+            <img src ="./images/en.png" class = "t3-6en2" alt = "en">
+            <img src ="./images/en.png" class = "t3-6en3" alt = "en">
+            <img src ="./images/ms2000.png" class = "t3-6ms1" alt = "en">
+            <img src ="./images/ms2000.png" class = "t3-6ms2" alt = "en">
+            <img src ="./images/ms2000.png" class = "t3-6ms3" alt = "en">
+        </div>
+
+
+
+
+
+
+
+
+        <div id = "t4-6" style="display: none;">
+            <img src ="./images/en.png" class = "t4-6en1" alt = "en">
+            <img src ="./images/en.png" class = "t4-6en2" alt = "en">
+            <img src ="./images/gzhel.png" class = "t4-6gzhel" alt = "en">
+            <img src ="./images/6b47.png" class = "t4-66b47" alt = "en">
+            <img src ="./images/comtac2.png" class = "t4-6comtac" alt = "en">
+            <div class = "t4-6text1"><font color="red">x2</font></div>
+            <div class = "t4-6text2"><font color="red">x2</font></div>
+            <div class = "t4-6text3"><font color="red">x2</font></div>
+        </div>
+
+
+
+
+
+
+
+
+        <div id = "t6-6" style="display: none;">
+            <img src ="./images/en.png" class = "t6-6en1" alt = "en">
+            <img src ="./images/en.png" class = "t6-6en2" alt = "en">
+            <img src ="./images/en.png" class = "t6-6en3" alt = "en">
+        </div>
+
+
+
+
+
+
+
+
+
+        <div id = "t7-6" style="display: none;">
+            <img src ="./images/en.png" class = "t7-6en1" alt = "en">
+            <img src ="./images/OLIKey.png" class = "t7-6oli" alt = "en">
+        </div>
+
+
+
+
+
+
+        <div id = "t8-6" style="display: none;">
+            <img src ="./images/en.png" class = "t8-6en1" alt = "en">
+            <img src ="./images/en.png" class = "t8-6en2" alt = "en">
+            <img src ="./images/en.png" class = "t8-6en3" alt = "en">
+            <img src ="./images/ms2000.png" class = "t8-6ms1" alt = "en">
+            <img src ="./images/ms2000.png" class = "t8-6ms2" alt = "en">
+            <img src ="./images/ms2000.png" class = "t8-6ms3" alt = "en">
+        </div>
+
+
+
+
+
+
+
+
+        <div id = "t9-6" style="display: none;">
+            <img src ="./images/en.png" class = "t9-6en1" alt = "en">
+            <img src ="./images/en.png" class = "t9-6en2" alt = "en">
+        </div>
+
+
+
+        <!--task チェックボックス-->
+        <form name="form1" action="">
+            <input type="checkbox" onclick="checkfunction()" id = "task1-1" name=“prapertask1”>       <a href="https://wikiwiki.jp/eft/Prapor/Escort" target="_blank" class="task1">Escort</a>
+            <input type="checkbox" onclick="checkfunction()" id = "task1-2" name=“therapisttask1”>    <a href="https://wikiwiki.jp/eft/Therapist/Decontamination%20Service" target="_blank" class="task2">Decontamination<br>Service</a>
+            <input type="checkbox" onclick="checkfunction()" id = "task1-3" name=“skiertask1”>        <a href="https://wikiwiki.jp/eft/Skier/Vitamins%20-%20Part%201" target="_blank" class="task3">Vitamins&nbsp;Part&nbsp;1</a>
+            <input type="checkbox" onclick="checkfunction()" id = "task1-4" name=“peacekeepertask1”>  <a href="https://wikiwiki.jp/eft/Peacekeeper/The%20Guide" target="_blank" class="task4">The&nbsp;guide</a>
+            <input type="checkbox" onclick="checkfunction()" id = "task1-6" name=“ragman1”>           <a href="https://wikiwiki.jp/eft/Ragman/Make%20ULTRA%20Great%20Again" target="_blank" class="task6">Make&nbsp;ULTRA&nbsp;Great&nbsp;Again</a>
+            <input type="checkbox" onclick="checkfunction()" id = "task1-7" name=“jaegertask1”>       <a href="https://wikiwiki.jp/eft/Jaeger/Slaughterhouse" target="_blank" class="task7">Slaughterhouse</a>
+        </form>
+
+        <form name="form2" action="">
+            <input type="checkbox" onclick="checkfunction()" id = "task2-3" name=“skiertask2”>        <a href="https://wikiwiki.jp/eft/Skier/Informed%20means%20armed" target="_blank" class="task23">Informed&nbsp;means&nbsp;armed</a>
+            <input type="checkbox" onclick="checkfunction()" id = "task2-4" name=“mechanictask2”>     <a href="https://wikiwiki.jp/eft/Peacekeeper/Peacekeeping%20mission" target="_blank" class="task24">Peacekeeping&nbsp;mission</a> 
+            <input type="checkbox" onclick="checkfunction()" id = "task2-6" name=“ragman2”>           <a href="https://wikiwiki.jp/eft/Ragman/Big%20sale" target="_blank" class="task26">Big&nbsp;sale</a>          
+            <input type="checkbox" onclick="checkfunction()" id = "task2-7" name=“jaegertask2”>       <a href="https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Sellout" target="_blank" class="task27">The&nbsp;Huntsman&nbsp;Path&nbsp;Sellout</a>
+        </form>
+
+        <form name="form3" action="">
+            <input type="checkbox" onclick="checkfunction()" id = "task3-3" name=“skiertask3”>        <a href="https://wikiwiki.jp/eft/Skier/Chumming" target="_blank" class="task33">Chumming</a>
+            <input type="checkbox" onclick="checkfunction()" id = "task3-6" name=“ragman3”>           <a href="https://wikiwiki.jp/eft/Ragman/The%20Blood%20of%20War%20-%20Part%201" target="_blank" class="task36">The&nbsp;Blood&nbsp;of&nbsp;War&nbsp;Part&nbsp;1</a>
+            <input type="checkbox" onclick="checkfunction()" id = "task3-7" name=“jaegertask3”>       <a href="https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Relentless" target="_blank" class="task37">The&nbsp;Huntsman&nbsp;Path&nbsp;Relentless</a>
+        </form>
+        
+        <form name="form4" action=""> 
+            <input type="checkbox" onclick="checkfunction()" id = "task4-6" name=“ragman4”>           <a href="https://wikiwiki.jp/eft/Ragman/Hot%20delivery" target="_blank" class="task46">Hot&nbsp;delivery</a>
+        </form>
+
+        <form name="form5" action=""> 
+            <input type="checkbox" onclick="checkfunction()" id = "task5-6" name=“ragman5”>           <a href="https://wikiwiki.jp/eft/Ragman/Sales%20Night" target="_blank" class="task56">Sales&nbsp;Night</a>
+        </form>
+
+        <form name="form6" action=""> 
+            <input type="checkbox" onclick="checkfunction()" id = "task6-6" name=“ragman6”>           <a href="https://wikiwiki.jp/eft/Ragman/Database%20-%20Part%201" target="_blank" class="task66">Database&nbsp;Part&nbsp;1</a>
+        </form>
+
+        <form name="form7" action=""> 
+            <input type="checkbox" onclick="checkfunction()" id = "task7-6" name=“ragman7”>           <a href="https://wikiwiki.jp/eft/Ragman/Database%20-%20Part%202" target="_blank" class="task76">Database&nbsp;Part&nbsp;2</a>
+        </form>
+
+        <form name="form8" action=""> 
+            <input type="checkbox" onclick="checkfunction()" id = "task8-6" name=“ragman8”>           <a href="https://wikiwiki.jp/eft/Ragman/Minibus" target="_blank" class="task86">Minibus</a>
+        </form>
+
+        <form name="form9" action=""> 
+            <input type="checkbox" onclick="checkfunction()" id = "task9-6" name=“ragman9”>           <a href="https://wikiwiki.jp/eft/Ragman/The%20key%20to%20success" target="_blank" class="task96">The&nbsp;key&nbsp;to&nbsp;success</a>
+        </form>
+
+        <form name="form10" action=""> 
+            <input type="checkbox" onclick="checkfunction()" id = "task10-6" name=“ragman10”>         <a href="https://wikiwiki.jp/eft/Ragman/The%20stylish%20one" target="_blank" class="task106">The&nbsp;stylish&nbsp;one</a>
+        </form>
+        
+        <form name="form11" action=""> 
+            <input type="checkbox" onclick="checkfunction()" id = "task11-6" name=“ragman11”>         <a href="https://wikiwiki.jp/eft/Ragman/Long%20Line" target="_blank" class="task116">Long&nbsp;Line</a>
+        </form>
+
+
+        <script src ="interchange.js"></script>
+        
+
+        <!--トレーダー-->
+        <div>
+            <img src="./images/praper.jpg"      class ="praper"     alt = "prapor">
+            <img src="./images/therapist.jpg"   class ="therapist"  alt = "therapist">
+            <img src="./images/skier.jpg"       class ="skier"      alt = "skier">
+            <img src="./images/peacekeeper.jpg" class ="peacekeeper"alt = "peacekeeper">
+            <img src="./images/mechanic.jpg"    class ="mechanic"   alt = "mechanic">
+            <img src="./images/ragman.jpg"      class ="ragman"     alt = "ragman">
+            <img src="./images/jaeger.jpg"      class ="jaeger"     alt = "jaeger">
+        </div>
+
+        
+
+
+
+
+    </body>
+    
+</html>

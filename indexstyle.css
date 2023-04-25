@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+    background: rgb(149, 182, 190);
+}
+
+.tarkovnote {
+    position: absolute;
+    font-size: 5em;
+    font-weight: bold;   
+    padding-left: 5.0em;
+    padding-bottom: 0em;
+    margin-bottom: 1em;
+    color:rgb(255, 255, 255);
+    font-family: 'Caveat', cursive;
+}
+
+
+
+.pens {
+    position: absolute;
+    max-width:  90px;
+    max-height: 90px;
+    top:  64px;
+    left: 850px;
+    animation: spin 5s infinite;
+}  
+
+
+
+
+
+
+
+@keyframes spin{
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+.mapstext {
+    position: absolute;
+    font-size: 2em;
+    font-weight: bold;   
+    padding-left: 19em;
+    padding-bottom: 0em;
+    padding-top: 6em;
+    margin-bottom: 1em;
+    color:rgb(255, 255, 255);
+    font-family: 'Caveat', cursive;
+}
+
+
+
+.mapswoods{
+    box-shadow: 0 0 15px #333;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+    top:  300px;
+    left: 100px;
+    position: absolute;
+  }
+  .mapswoods img{
+    width: 100%;
+    cursor: pointer;
+  }
+  .mapswoods:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;   
+  }
+  .mapswoods:hover .namewoods{  
+    animation: fuwafuwa 2s infinite;
+  }
+  .mapswoods div{
+    top:  25px;
+    left: 1px;
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    color:rgb(250, 131, 131);
+    transform:rotate(-20deg);
+  }
+
+
+
+
+  
+.mapscustoms{
+    box-shadow: 0 0 15px #333;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+    top:  300px;
+    left: 400px;
+    position: absolute;
+  }
+  .mapscustoms img{
+    width: 100%;
+    cursor: pointer;
+  }
+  .mapscustoms:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;   
+  }
+  .mapscustoms:hover .namecustoms{  
+    animation: fuwafuwa 2s infinite;
+  }
+  .mapscustoms div{
+    top:  25px;
+    left: 1px;
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    color:rgb(250, 131, 131);
+    transform:rotate(-20deg);
+  }
+
+
+
+
+   
+.mapsfactory{
+    box-shadow: 0 0 15px #333;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+    top:  300px;
+    left: 700px;
+    position: absolute;
+  }
+  .mapsfactory img{
+    width: 100%;
+    cursor: pointer;
+  }
+  .mapsfactory:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;   
+  }
+  .mapsfactory:hover .namefactory{  
+    animation: fuwafuwa 2s infinite;
+  }
+  .mapsfactory div{
+    top:  25px;
+    left: 1px;
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    color:rgb(250, 131, 131);
+    transform:rotate(-20deg);
+  }
+
+
+
+
+
+  .mapsshoreline{
+    box-shadow: 0 0 15px #333;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+    top:  300px;
+    left: 1000px;
+    position: absolute;
+  }
+  .mapsshoreline img{
+    width: 100%;
+    height: 112%;
+    cursor: pointer;
+  }
+  .mapsshoreline:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;   
+  }
+  .mapsshoreline:hover .nameshoreline{  
+    animation: fuwafuwa 2s infinite;
+  }
+  .mapsshoreline div{
+    top:  25px;
+    left: 1px;
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    color:rgb(250, 131, 131);
+    transform:rotate(-20deg);
+  }
+
+
+
+
+  
+.mapsreserve{
+    box-shadow: 0 0 15px #333;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+    top:  600px;
+    left: 100px;
+    position: absolute;
+  }
+  .mapsreserve img{
+    width: 100%;
+    cursor: pointer;
+  }
+  .mapsreserve:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;   
+  }
+  .mapsreserve:hover .namereserve{  
+    animation: fuwafuwa 2s infinite;
+  }
+  .mapsreserve div{
+    top:  25px;
+    left: 1px;
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    color:rgb(250, 131, 131);
+    transform:rotate(-20deg);
+  }
+
+
+
+
+   
+.mapslighthouse{
+    box-shadow: 0 0 15px #333;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+    top:  600px;
+    left: 400px;
+    position: absolute;
+  }
+  .mapslighthouse img{
+    width: 100%;
+    height: 112%;
+    cursor: pointer;
+  }
+  .mapslighthouse:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;   
+  }
+  .mapslighthouse:hover .namelighthouse{  
+    animation: fuwafuwa 2s infinite;
+  }
+  .mapslighthouse div{
+    top:  25px;
+    left: 1px;
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    color:rgb(250, 131, 131);
+    transform:rotate(-20deg);
+  }
+
+
+
+
+  
+  .mapsinterchange{
+    box-shadow: 0 0 15px #333;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+    top:  600px;
+    left: 700px;
+    position: absolute;
+  }
+  .mapsinterchange img{
+    width: 100%;
+    cursor: pointer;
+  }
+  .mapsinterchange:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;   
+  }
+  .mapsinterchange:hover .nameinterchange{  
+    animation: fuwafuwa 2s infinite;
+  }
+  .mapsinterchange div{
+    top:  25px;
+    left: 1px;
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    color:rgb(250, 131, 131);
+    transform:rotate(-20deg);
+  }
+
+
+
+
+
+  .mapssot{
+    box-shadow: 0 0 15px #333;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+    top:  600px;
+    left: 1000px;
+    position: absolute;
+  }
+  .mapssot img{
+    width: 100%;
+    height: 112%;
+    cursor: pointer;
+  }
+  .mapssot:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;   
+  }
+  .mapssot:hover .namesot{  
+    animation: fuwafuwa 2s infinite;
+  }
+  .mapssot div{
+    top:  25px;
+    left: 1px;
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    color:rgb(250, 131, 131);
+    transform:rotate(-20deg);
+  }
+
+
+
+
+
+  @keyframes fuwafuwa {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  

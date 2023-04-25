@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<link href="sotstyle.css" rel="stylesheet" type="text/css">
+<img src="./images/sot.png" id ="sot" alt="woods">
+<script>
+//カーソル移動//
+window.addEventListener('load', function(){
+
+// カーソルが移動したときに実行
+      document.getElementById("sot").addEventListener('mousemove', logPointer);
+  });
+
+  function logPointer(event) {
+      console.log("X:" + event.pageX);
+      console.log("Y:" + event.pageY);
+  }
+    
+</script>
+
+</html>
