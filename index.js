@@ -1,10 +1,10 @@
 function checkfunction(){
             
-    var admaxadsjs = document.getElementById('admax-ads');
+    var clickjs = document.getElementById('click');
 
 
 
-    if(admaxadsjs.Checked == true) {
+    if(clickjs.Clicked == true) {
         document.getElementById('honbun').style.display = "block";
         document.getElementById('woods').style.display = "block";
         document.getElementById('customs').style.display = "block";
@@ -15,7 +15,7 @@ function checkfunction(){
         document.getElementById('interchange').style.display = "block";
         document.getElementById('sot').style.display = "block";
 
-        document.getElementById('admax-ads').style.display = "none";
+        document.getElementById('koukoku').style.display = "none";
 
     } else {
         document.getElementById('honbun').style.display = "none";
@@ -28,7 +28,7 @@ function checkfunction(){
         document.getElementById('interchange').style.display = "none";
         document.getElementById('sot').style.display = "none";
 
-        document.getElementById('admax-ads').style.display = "block";
+        document.getElementById('koukoku').style.display = "block";
     }
 
 
