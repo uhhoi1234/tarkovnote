@@ -27,7 +27,11 @@ body {
 }  
 
 
-
+.admax-ads {
+  position: absolute;
+  top:  700px;
+  left: 100px;
+}
 
 
 
