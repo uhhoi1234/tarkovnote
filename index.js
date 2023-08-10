@@ -4,7 +4,7 @@ function checkfunction(){
 
 
 
-    if(koukokujs.checked == true) {
+    if(koukokujs.Checked == true) {
         document.getElementById('honbun').style.display = "block";
         document.getElementById('woods').style.display = "block";
         document.getElementById('customs').style.display = "block";
